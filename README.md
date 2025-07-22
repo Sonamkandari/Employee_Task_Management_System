@@ -19,9 +19,15 @@ Here is a preview of the Header component used in the Admin Dashboard:
 ### Task List Numbers
 - After completeing the header component i buiding TaskListNumbers Component
 - similarly to Header,jsx I stored the `TaskListNumbers.jsx` file inside a folder named `MainComponents` for better project structure.
-
-
+- added a snipit how it is looking
+<img width="1875" height="467" alt="image" src="https://github.com/user-attachments/assets/6f3cf6c0-85aa-4cd4-88f5-44eb0d9a19c1" />
+---
 
 ### Tasklist
 -build a component like list in which manage or boss or team leader alot the task to the other team members different team members has different task to do 
+addedd snipit how it is looking
+<img width="1831" height="325" alt="image" src="https://github.com/user-attachments/assets/89a3683c-b2f9-4ca9-a89b-ed83784ff986" />
+---
+
+
 
