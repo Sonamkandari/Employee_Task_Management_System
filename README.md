@@ -28,6 +28,5 @@ Here is a preview of the Header component used in the Admin Dashboard:
 addedd snipit how it is looking
 <img width="1831" height="325" alt="image" src="https://github.com/user-attachments/assets/89a3683c-b2f9-4ca9-a89b-ed83784ff986" />
 ---
-
-
+### Admin Panel 
 
