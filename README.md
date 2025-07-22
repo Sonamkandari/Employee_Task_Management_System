@@ -29,4 +29,4 @@ addedd snipit how it is looking
 <img width="1831" height="325" alt="image" src="https://github.com/user-attachments/assets/89a3683c-b2f9-4ca9-a89b-ed83784ff986" />
 ---
 ### Admin Panel 
-
+-first a fall i had mounted the Admin DashBoard to the App.jsx and then i had mounted  header dashboard to the admin Dashboard because both the header component  will be same for both the DashBoards
