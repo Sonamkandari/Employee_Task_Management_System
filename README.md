@@ -34,9 +34,40 @@ addedd snipit how it is looking
 -added a snipid off it 
 <img width="1913" height="872" alt="image" src="https://github.com/user-attachments/assets/e7beb91f-dc86-415e-a416-a3db3fd7b6d5" />
 
-
+---
 --now e are writing the logic for connecting these component with eavch other 
 -- if we used react then it will work in a sequnce logic for egxample 1 person send data to another person but in this case we are using context api here data is centeralized which means who ever needs the data that will request to the center ask for the data
 
+
+---
+for now
+
+                          ┌────────────────────────┐
+                          │      Employees         │
+                          └─────────▲──┬──────────┘
+                                    │  ❏ Login / Auth
+                                    │  ❏ View Tasks           
+                                    │  ❏ Update Task Status
+                                    ▼
+┌────────────────────────┐   ❏ Login.jsx    ┌────────────────────────┐
+│ {Authentication UI}    │ <-------------- │   EMS Web App (React) │
+└────────────────────────┘                 │  ┌──────────────────┐ │
+                                           │  │ src              │ │
+                                           │  │ ├── Component/    │ │
+     ┌────────────────────┐                │  │ │ – Login.jsx      │ │
+     │  HR / Admin Users  │                │  │ │ – MainComponent  │ │
+     │                    │                │  │ │ – AdminDashboard │ │
+     │ – Manage Employees │ ◀────────────── │  │ │ – EmployeeDashboard │ │
+     │ – Create / Assign  │                │  │ │ – TaskList & variants │ │
+     │   Tasks            │                │  │ ├── context/TaskContext │ │
+     │ – View Reports     │                │  │ ├── pages/         │ │
+     │                    │                │  │ │ – (add pages)     │ │
+     └────────────────────┘                │  │ └── utils/         │ │
+                                           │  │   LocalStorage.js  │ │
+                                           │  └──────────────────┘ │
+                                           └────────────────────────┘
+
+
+---
 
 
