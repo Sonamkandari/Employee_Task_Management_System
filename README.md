@@ -30,3 +30,8 @@ addedd snipit how it is looking
 ---
 ### Admin Panel 
 -first a fall i had mounted the Admin DashBoard to the App.jsx and then i had mounted  header dashboard to the admin Dashboard because both the header component  will be same for both the DashBoards
+--now i mounted create Task component and AllTask componet on the admin panel
+-added a snipid off it 
+<img width="1913" height="872" alt="image" src="https://github.com/user-attachments/assets/e7beb91f-dc86-415e-a416-a3db3fd7b6d5" />
+
+
