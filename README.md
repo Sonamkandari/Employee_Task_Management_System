@@ -45,8 +45,15 @@ for now
     ## 🧩 EMS Context Diagram
 
  <img width="607" height="592" alt="image" src="https://github.com/user-attachments/assets/e80f2ef6-63f0-4ec8-85eb-8e3c5b3dce1d" />
-
+---
+created a AuthenticationProvider context so te local storage can centralized and can be access by the evry component of the application
 
 ---
+
+- Created function to check when some one is loggedIn in the website who is that person a admin or a Employee
+- 
+
+
+
 
 
