@@ -1,11 +1,11 @@
 ## 🚀 Employee Management System
 
-### 🔐 Login Page
+### creating employe dashboard
 - I started by designing the **Login Page**, which allows users to log in using their **email and password**.
 - I used **React's `useState` hook** and other functions to manage the form state and submission logic.
 - This component handles basic validation and logs form data upon submission.
 
-### 🛠 Admin Dashboard
+### 🛠 creating admin dashboard
 - After completing the login functionality, I built the **Admin Dashboard** component.
 - The first part of the dashboard is the **Header**, which I created as a separate reusable component.
 - I stored the `Header.jsx` file inside a folder named `MainComponents` for better project structure.
@@ -51,9 +51,10 @@ created a AuthenticationProvider context so te local storage can centralized and
 ---
 
 - Created function to check when some one is loggedIn in the website who is that person a admin or a Employee
-- 
+-
+-  separating user data and admin data
 
-
-
-
+-setting up who is logged in localStorage
+-creating logout feature and more
+passing data in tasks
 
