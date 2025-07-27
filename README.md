@@ -170,7 +170,6 @@ This project is licensed under the MIT License.
 
 ---
 
-If you want me to help generate specific files, scripts, or documentation sections, just ask!
    
 
 
