@@ -128,7 +128,7 @@ src/
 
 1. **Clone the repository:**
 
-git clone https://github.com/yourusername/employee-task-management-system.git
+https://github.com/Sonamkandari/Employee_Task_Management_System.git
 cd employee-task-management-system
 
 2. **Install dependencies:**
