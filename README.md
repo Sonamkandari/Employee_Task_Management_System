@@ -1,11 +1,18 @@
-
 # Employee Task Management System
 
 A modern React-based Employee Task Management System for assigning, tracking, and completing workplace tasks—featuring role-based dashboards, instant context updates, and persistent browser storage. No backend required!
 
 ---
 
+
+
 ## 🚀 Overview
+
+
+
+
+
+
 
 **EMS** provides a robust platform for:
 - **Admins**: Create and assign tasks, monitor progress, and manage employee workload from a centralized dashboard.
@@ -13,9 +20,29 @@ A modern React-based Employee Task Management System for assigning, tracking, an
 
 All data is managed using React Context and is persisted via browser `localStorage`. The UI is styled with Tailwind CSS for a seamless and consistent experience.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 ## 📁 Project Structure
+
+
+
+
 
 <!-- SCREENSHOT/DIAGRAM PLACEHOLDER -->
 > [!NOTE]  
@@ -55,6 +82,10 @@ src/
 
 ---
 
+
+
+
+
 ## ✨ Features
 
 - **Role-based authentication**
@@ -76,6 +107,8 @@ src/
 
 ---
 
+
+
 ## 🛠 Tech Stack
 
 - **React** (function components, hooks)
@@ -88,6 +121,10 @@ src/
 ---
 
 ## 🔧 Installation & Running
+
+
+
+
 
 1. **Clone the repository:**
 
@@ -107,6 +144,7 @@ Open your browser at [http://localhost:5173](http://localhost:5173)
 ## 🔑 Default Credentials
 
 ### Admin
+
 | Email        | Password |
 |--------------|----------|
 | admin@12.com | 123      |
@@ -120,6 +158,7 @@ Open your browser at [http://localhost:5173](http://localhost:5173)
 | Shubham Gairola  | shubham@12.com    | 123      |
 | Pranjal          | pranjal@12.com    | 123      |
 
+
 ---
 
 ## 🖼️ Visual UI Snippets
@@ -130,6 +169,14 @@ Open your browser at [http://localhost:5173](http://localhost:5173)
 `![Login Page](assets/login-page.png)`
 
 ---
+
+
+
+
+
+
+
+
 
 ### Admin Dashboard  
 `![Admin Dashboard](assets/admin-dashboard.png)`
@@ -160,6 +207,7 @@ Open your browser at [http://localhost:5173](http://localhost:5173)
 
 ---
 
+
 ## 🧩 Core File: App Initialization
 
 // index.jsx
@@ -178,11 +226,18 @@ createRoot(document.getElementById('root')).render(
 );
 
 
+
 ---
 
 ## 🚢 Deploying to GitHub Pages
 
 1. In your `package.json`, add:
+
+
+
+
+
+
 
 
 2. Install deployment tool:
@@ -195,6 +250,7 @@ npm install --save gh-pages
 
 4. Deploy in one line:
 npm run deploy
+
 
 
 ---
@@ -226,6 +282,3 @@ MIT License
 
 > ⭐ If you find this useful, star the repo!
 
-
- 
->>>>>>> 12ba1cfc68c62f887764d8051028cb76436e69e0
