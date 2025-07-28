@@ -272,11 +272,6 @@ Pull requests and issues are very welcome! For major changes, please open an iss
 
 ---
 
-## 📄 License
-
-MIT License
-
----
 
 **Enjoy managing your team’s workflow with the Employee Task Management System!**
 
