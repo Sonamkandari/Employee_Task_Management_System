@@ -1,7 +1,6 @@
 // Only non-sensitive data (like theme preference) is stored here.
 // Sensitive data is NEVER stored in localStorage.
 localStorage.setItem('theme', 'dark');
-
 const employees = [
     {
         "id": 1,
