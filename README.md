@@ -1,18 +1,24 @@
+<<<<<<< HEAD
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
 # Employee Task Management System
 
 A modern React-based Employee Task Management System for assigning, tracking, and completing workplace tasks—featuring role-based dashboards, instant context updates, and persistent browser storage. No backend required!
 
 ---
 
-
-
 ## 🚀 Overview
-
-
-
-
-
-
 
 **EMS** provides a robust platform for:
 - **Admins**: Create and assign tasks, monitor progress, and manage employee workload from a centralized dashboard.
@@ -20,29 +26,9 @@ A modern React-based Employee Task Management System for assigning, tracking, an
 
 All data is managed using React Context and is persisted via browser `localStorage`. The UI is styled with Tailwind CSS for a seamless and consistent experience.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 
 ## 📁 Project Structure
-
-
-
-
 
 <!-- SCREENSHOT/DIAGRAM PLACEHOLDER -->
 > [!NOTE]  
@@ -82,10 +68,6 @@ src/
 
 ---
 
-
-
-
-
 ## ✨ Features
 
 - **Role-based authentication**
@@ -107,8 +89,6 @@ src/
 
 ---
 
-
-
 ## 🛠 Tech Stack
 
 - **React** (function components, hooks)
@@ -122,13 +102,9 @@ src/
 
 ## 🔧 Installation & Running
 
-
-
-
-
 1. **Clone the repository:**
 
-https://github.com/Sonamkandari/Employee_Task_Management_System.git
+git clone https://github.com/yourusername/employee-task-management-system.git
 cd employee-task-management-system
 
 2. **Install dependencies:**
@@ -144,7 +120,6 @@ Open your browser at [http://localhost:5173](http://localhost:5173)
 ## 🔑 Default Credentials
 
 ### Admin
-
 | Email        | Password |
 |--------------|----------|
 | admin@12.com | 123      |
@@ -158,7 +133,6 @@ Open your browser at [http://localhost:5173](http://localhost:5173)
 | Shubham Gairola  | shubham@12.com    | 123      |
 | Pranjal          | pranjal@12.com    | 123      |
 
-
 ---
 
 ## 🖼️ Visual UI Snippets
@@ -166,35 +140,27 @@ Open your browser at [http://localhost:5173](http://localhost:5173)
 > 🖼️ **Replace these sample links with your actual screenshots or GIF files!**
 
 ### Login Page  
-<img width="1225" height="828" alt="image" src="https://github.com/user-attachments/assets/96c2817f-1202-4b75-8a21-a0f43ff25323" />
+`![Login Page](assets/login-page.png)`
 
 ---
-
 
 ### Admin Dashboard  
-<img width="1246" height="826" alt="image" src="https://github.com/user-attachments/assets/a8952c0c-6eb2-4a6e-8a42-1e1952baa504" />
-
----
-<img width="1224" height="788" alt="image" src="https://github.com/user-attachments/assets/4972dd22-6422-4224-bfd5-772809f4eef0" />
-
+`![Admin Dashboard](assets/admin-dashboard.png)`
 
 ---
 
 ### Employee Dashboard  
-`<img width="1226" height="823" alt="image" src="https://github.com/user-attachments/assets/92407f1e-0be6-4708-a35a-ae8198a107df" />
-
+`![Employee Dashboard](assets/employee-dashboard.png)`
 
 ---
 
 ### Task Cards (New/Active/Completed/Failed)
-<img width="1254" height="494" alt="image" src="https://github.com/user-attachments/assets/e613ebc5-075d-4544-ad8d-10b59eebe9c8" />
-
+`![Task Cards](assets/task-cards.png)`
 
 ---
 
 ### Task Summary Numbers  
-<img width="1226" height="332" alt="image" src="https://github.com/user-attachments/assets/d92200a4-7e6c-41c7-9b19-e89b9510b800" />
-
+`![Task Summary](assets/task-stats.png)`
 
 ---
 
@@ -206,7 +172,6 @@ Open your browser at [http://localhost:5173](http://localhost:5173)
 - **Employees** log in to view only their assigned tasks, instantly interact and update status
 
 ---
-
 
 ## 🧩 Core File: App Initialization
 
@@ -226,18 +191,11 @@ createRoot(document.getElementById('root')).render(
 );
 
 
-
 ---
 
 ## 🚢 Deploying to GitHub Pages
 
 1. In your `package.json`, add:
-
-
-
-
-
-
 
 
 2. Install deployment tool:
@@ -250,7 +208,6 @@ npm install --save gh-pages
 
 4. Deploy in one line:
 npm run deploy
-
 
 
 ---
@@ -272,8 +229,16 @@ Pull requests and issues are very welcome! For major changes, please open an iss
 
 ---
 
+## 📄 License
+
+MIT License
+
+---
 
 **Enjoy managing your team’s workflow with the Employee Task Management System!**
 
 > ⭐ If you find this useful, star the repo!
 
+
+ 
+>>>>>>> 12ba1cfc68c62f887764d8051028cb76436e69e0
