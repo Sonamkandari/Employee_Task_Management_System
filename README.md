@@ -4,7 +4,15 @@ A modern React-based Employee Task Management System for assigning, tracking, an
 
 ---
 
+
+
 ## 🚀 Overview
+
+
+
+
+
+
 
 **EMS** provides a robust platform for:
 - **Admins**: Create and assign tasks, monitor progress, and manage employee workload from a centralized dashboard.
@@ -12,9 +20,29 @@ A modern React-based Employee Task Management System for assigning, tracking, an
 
 All data is managed using React Context and is persisted via browser `localStorage`. The UI is styled with Tailwind CSS for a seamless and consistent experience.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 ## 📁 Project Structure
+
+
+
+
 
 <!-- SCREENSHOT/DIAGRAM PLACEHOLDER -->
 > [!NOTE]  
@@ -54,6 +82,10 @@ src/
 
 ---
 
+
+
+
+
 ## ✨ Features
 
 - **Role-based authentication**
@@ -75,6 +107,8 @@ src/
 
 ---
 
+
+
 ## 🛠 Tech Stack
 
 - **React** (function components, hooks)
@@ -87,6 +121,10 @@ src/
 ---
 
 ## 🔧 Installation & Running
+
+
+
+
 
 1. **Clone the repository:**
 
@@ -106,6 +144,7 @@ Open your browser at [http://localhost:5173](http://localhost:5173)
 ## 🔑 Default Credentials
 
 ### Admin
+
 | Email        | Password |
 |--------------|----------|
 | admin@12.com | 123      |
@@ -119,6 +158,7 @@ Open your browser at [http://localhost:5173](http://localhost:5173)
 | Shubham Gairola  | shubham@12.com    | 123      |
 | Pranjal          | pranjal@12.com    | 123      |
 
+
 ---
 
 ## 🖼️ Visual UI Snippets
@@ -126,27 +166,35 @@ Open your browser at [http://localhost:5173](http://localhost:5173)
 > 🖼️ **Replace these sample links with your actual screenshots or GIF files!**
 
 ### Login Page  
-`![Login Page](assets/login-page.png)`
+<img width="1225" height="828" alt="image" src="https://github.com/user-attachments/assets/96c2817f-1202-4b75-8a21-a0f43ff25323" />
 
 ---
 
+
 ### Admin Dashboard  
-`![Admin Dashboard](assets/admin-dashboard.png)`
+<img width="1246" height="826" alt="image" src="https://github.com/user-attachments/assets/a8952c0c-6eb2-4a6e-8a42-1e1952baa504" />
+
+---
+<img width="1224" height="788" alt="image" src="https://github.com/user-attachments/assets/4972dd22-6422-4224-bfd5-772809f4eef0" />
+
 
 ---
 
 ### Employee Dashboard  
-`![Employee Dashboard](assets/employee-dashboard.png)`
+`<img width="1226" height="823" alt="image" src="https://github.com/user-attachments/assets/92407f1e-0be6-4708-a35a-ae8198a107df" />
+
 
 ---
 
 ### Task Cards (New/Active/Completed/Failed)
-`![Task Cards](assets/task-cards.png)`
+<img width="1254" height="494" alt="image" src="https://github.com/user-attachments/assets/e613ebc5-075d-4544-ad8d-10b59eebe9c8" />
+
 
 ---
 
 ### Task Summary Numbers  
-`![Task Summary](assets/task-stats.png)`
+<img width="1226" height="332" alt="image" src="https://github.com/user-attachments/assets/d92200a4-7e6c-41c7-9b19-e89b9510b800" />
+
 
 ---
 
@@ -158,6 +206,7 @@ Open your browser at [http://localhost:5173](http://localhost:5173)
 - **Employees** log in to view only their assigned tasks, instantly interact and update status
 
 ---
+
 
 ## 🧩 Core File: App Initialization
 
@@ -177,11 +226,18 @@ createRoot(document.getElementById('root')).render(
 );
 
 
+
 ---
 
 ## 🚢 Deploying to GitHub Pages
 
 1. In your `package.json`, add:
+
+
+
+
+
+
 
 
 2. Install deployment tool:
@@ -194,6 +250,7 @@ npm install --save gh-pages
 
 4. Deploy in one line:
 npm run deploy
+
 
 
 ---
