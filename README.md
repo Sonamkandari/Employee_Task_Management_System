@@ -21,28 +21,9 @@ A modern React-based Employee Task Management System for assigning, tracking, an
 All data is managed using React Context and is persisted via browser `localStorage`. The UI is styled with Tailwind CSS for a seamless and consistent experience.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 
 ## 📁 Project Structure
-
-
-
-
 
 <!-- SCREENSHOT/DIAGRAM PLACEHOLDER -->
 > [!NOTE]  
@@ -162,8 +143,6 @@ Open your browser at [http://localhost:5173](http://localhost:5173)
 ---
 
 ## 🖼️ Visual UI Snippets
-
-> 🖼️ **Replace these sample links with your actual screenshots or GIF files!**
 
 ### Login Page  
 <img width="1225" height="828" alt="image" src="https://github.com/user-attachments/assets/96c2817f-1202-4b75-8a21-a0f43ff25323" />
